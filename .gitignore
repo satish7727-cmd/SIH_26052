@@ -1,0 +1,24 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Training checkpoints and model weights
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.tflite
+
+# Large datasets and generated audio
+LibriSpeechData/
+military_anc_dataset/
+*.wav
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
